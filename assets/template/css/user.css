@@ -1,0 +1,10 @@
+/*-------------------------------
+    user css starting
+-------------------------------*/
+.border-right { border-right: 1px solid #f0f2f5;}
+.profile-admin h2 {font-size: 1.25rem;margin-top: 0rem;}
+.profile-admin p { color:#afb1b6;font-size:0.85rem;margin-bottom: 0.25rem;}
+.text-muted {color: #afb1b6 !important;}
+.profile-img img {height: 131px !important;object-fit: cover;width: 131px !important;border-radius: 50%;}
+.profile-img {height: 131px;width: 131px;}
+.profile-icon .mdi { font-size:1.5rem;color:#4466f2;font-weight:normal !important;opacity:0.75;}

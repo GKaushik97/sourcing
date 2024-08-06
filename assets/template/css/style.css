@@ -1,0 +1,503 @@
+/*-------------------------------
+    pagination css starting
+-------------------------------*/
+.select-pagination .form-select, .select-pagination .form-select:focus {
+    background-color: transparent;
+    border: 0rem;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(355deg) brightness(1000%) contrast(109%);
+}
+.pagination-pad {
+    padding: .14rem .6rem !important;
+}
+.select-pagination span.page-link {
+    padding: 0rem;
+}
+
+.bg-success-subtle {
+  background-color: var(--bs-success-bg-subtle) !important;
+}
+.text-success-emphasis {
+  color: var(--bs-success-text-emphasis) !important;
+}
+/*-------------------------------
+    Table css starting
+-------------------------------*/
+.candidate-table .table thead tr th, .candidate-table .table tbody tr td {
+	padding: 1.5rem 1rem;
+	vertical-align: middle;
+	border-color: #f0f2f5;
+}
+.candidate-table .table thead tr th {
+  background-color: #f9f9f9;
+}
+.candidate-table .table {
+  border: 1px solid #f0f2f5;
+}
+.candidate-table .form-control-sm-pad {
+  padding: .35rem 1rem !important;
+}
+/*-------------------------------
+    status css starting
+-------------------------------*/
+.status {
+  --bs-badge-padding-x: 0.65em;
+  --bs-badge-padding-y: 0.35em;
+  --bs-badge-font-size: 0.75em;
+  --bs-badge-font-weight: 700;
+  --bs-badge-border-radius: 0.375rem;
+  display: inline-block;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.375rem;
+}
+.status-1 {
+  color: #0dcaf0;
+  border: 1px solid #0dcaf0;
+  font-size: 14px;
+}
+.status-1::before {
+  font-family: "Material Design Icons";
+  content: "\F09A4";
+  vertical-align: bottom;
+  padding-right: 5px;
+}
+
+.status-2 {
+  color: #6A1B9A;
+  border: 1px solid #6A1B9A;
+  font-size: 14px;
+}
+.status-2:before {
+  font-family: "Material Design Icons";
+  content: "\F05E1";
+  vertical-align: bottom;
+  padding-right: 5px;
+}
+
+.status-3 {
+  color: #332D2D;
+  border: 1px solid #332D2D;
+  font-size: 14px;
+}
+.status-3:before {
+  font-family: "Material Design Icons";
+  content: "\F0DC9";
+  vertical-align: bottom;
+  padding-right: 5px;
+}
+
+.status-4 {
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+  font-size: 14px;
+}
+.status-4:before {
+  font-family: "Material Design Icons";
+  content: "\F10CA";
+  vertical-align: bottom;
+  padding-right: 5px;
+  width: 20px;
+  display: inline-block;
+}
+
+.status-5 {
+  color: #E4A11B;
+  border: 1px solid #E4A11B;
+  font-size: 14px;
+}
+.status-5:before {
+  font-family: "Material Design Icons";
+  content: "\F0199";
+  vertical-align: bottom;
+  padding-right: 5px;
+}
+
+.status-6 {
+  color: #198754;
+  border: 1px solid #198754;
+  font-size: 14px;
+}
+.status-6:before {
+  font-family: "Material Design Icons";
+  content: "\F131E";
+  vertical-align: bottom;
+  padding-right: 5px;
+}
+
+.status-7 {
+  color: #dc3545;
+  border:1px solid #dc3545;
+  font-size: 14px;
+}
+.status-7:before {
+  font-family: "Material Design Icons";
+  content: "\F03E8";
+  vertical-align: bottom;
+  padding-right: 5px;
+}
+
+.status-success {
+  color: #198754;
+  border:1px solid #198754;
+}
+.status-danger {
+  color: #dc3545;
+  border:1px solid #dc3545;
+}
+.status-icon-check:before {
+  font-family: "Material Design Icons";
+  content: "\F012C";
+  vertical-align: bottom;
+  padding-right: 5px;
+}
+.status-icon-close:before {
+  font-family: "Material Design Icons";
+  content: "\F0156";
+  vertical-align: bottom;
+  padding-right: 5px;
+}
+/*-------------------------------
+    common css starting
+-------------------------------*/
+.datepicker-container {
+  z-index: 1055 !important;
+}
+.w-140 {
+  width: 140px !important;
+}
+.w-150 {
+  width: 150px !important;
+}
+.w-120 {
+  width: 120px !important;
+}
+.w-95 {
+  width: 95px !important;
+}
+.w-76 {
+  width: 76px !important;
+}
+.w-180 {
+    width: 180px !important;
+}
+.max-w-105 {
+  max-width: 105px;
+}
+.max-w-110 {
+  max-width: 110px;
+}
+.max-w-300 {
+    max-width: 300px;
+}
+.recruit-sub-title h3 {
+    color: #4466f2;
+    font-size: 0.85rem;
+}
+.manage-skill-badge, .manage-skill-badge a {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+.manage-skill-badge a {
+    border: 1px solid transparent;
+    padding: 0px 3px;
+    transition: all 0.3s;
+    border-radius: 50%;
+}
+.manage-skill-badge:hover a {
+    color: #ffffff !important;
+    border: 1px solid #ffffff;
+}
+.th-virticle-middle .table thead tr th {
+    vertical-align: middle;
+}
+/*-------------------------------
+    Loader css starting
+-------------------------------*/
+.loader-position {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.75);
+    z-index: 1060;
+}
+.loading-spinner {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,-50%) translateZ(0);
+    top: 50%;
+    width: 90px;
+    height: 90px;
+    z-index: 1;
+    background: url('/recruitTracker/assets/images/logo.png') center no-repeat;
+    background-size: contain;
+}
+.loading-spinner:after {
+    content:"";
+    position:absolute;
+    width:120px;
+    height:120px;
+    background-color:rgba(0,0,0,0);
+    border-radius:100%;
+    margin:-15px;
+    box-shadow: 0 4px 0 0 #0e4da4;
+    transition: all 1s linear;
+    animation: lds-eclipse 1s linear infinite;
+}
+@keyframes spinning {
+    0% { transform: translate(-50%,-50%) scale(1) translateZ(0);}
+    50% { transform: translate(-50%,-50%) scale(1.1) translateZ(0);}
+    100% { transform: translate(-50%,-50%) scale(1) translateZ(0);}
+}
+@keyframes lds-eclipse {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+/*-------------------------------
+    consumption allocation css starting
+-------------------------------*/
+.consumption-allocation-details {
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+.consumption-allocation-details ul li {
+    display: inline-block;
+    padding-left: 5px;
+}
+.consumption-allocation-details ul li:first-child {
+    padding-left: 0px;
+}
+.consumption-allocation-details ul {
+    margin: 0rem;
+    padding: 0rem;
+}
+.consumption-allocation-details ul li.dot-green:before {
+    content: '.';
+    font-size: 60px;
+    color: green;
+    line-height: 0px;
+    padding-right: 5px;
+    display: inline-block;
+}
+.consumption-allocation-details ul li.dot-red:before {
+    content: '.';
+    font-size: 60px;
+    color: red;
+    line-height: 0px;
+    padding-right: 5px;
+    display: inline-block;
+}
+.consumption-allocation-details ul li.dot-blue:before {
+    content: '.';
+    font-size: 60px;
+    color: blue;
+    line-height: 0px;
+    padding-right: 5px;
+    display: inline-block;
+}
+.consumption-allocation-card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+.consumption-allocation-card-body {
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+/*-------------------------------
+    Dashboard css starting
+-------------------------------*/
+.bg1 {
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+.bg4 {
+    background: #396afc;
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+    background: linear-gradient(to right, #2948ff, #396afc);
+}
+.bg5 {
+    background: #76b852;
+    background: -webkit-linear-gradient(to right, #2D7107, #47b10e);
+    background: linear-gradient(to right, #2D7107, #47b10e);
+}
+.sourcing-card {
+    background-color: #fff;
+    transition: all .5s ease-in-out;
+    position: relative;
+    border: 0 solid transparent;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 7.5px;
+}
+.sourcing-card-body {
+    padding: 15px;
+}
+.media {
+    display: flex;
+}
+.icon-block {
+    box-shadow: 0 12px 23px 0 rgba(139,199,64,.04);
+    border-radius: 50%;
+}
+.sourcing-card-title {
+    color: #ffffff;
+    font-size: 20px;
+}
+.statistics-title h3 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-size: 1.15rem;
+}
+.statistics-title-block {
+    padding: 0.5rem;
+    border: 1px solid #f5f5f5;
+    background-color: #f9f9f9;
+}
+.statistic-table-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+}
+.statistic-block{
+    position: relative;
+}
+.statistic-block:after {
+    content:'';
+    background: url('./assets/images/static-bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+    opacity: 0.075;
+}
+.statistic-count {
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 28px;
+    padding-bottom: 15px;
+}
+.statistic-count > span {
+    font-size: 12px;
+    padding-left: 10px;
+    line-height: 0px;
+}
+.statistic-name {
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 15px;
+}
+.divider {
+    display: flex;
+    height: 0.035rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: .25rem;
+    opacity: 0.75;
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.25);
+}
+.scanned-pass-block:after {
+    opacity: 0.05;
+}
+.card.s-card .card-header {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #e7edf4;
+    border-bottom: 1px solid #cfdce9;
+}
+.card.s-card {
+    border: 1px solid #cfdce9;
+}
+.s-db-col .row {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+.s-db-col [class*= "col-"] {
+    padding: 7.5px;
+}
+.number {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 6px 12px;
+    text-align: right;
+}
+.bg-g1 {
+    border-radius: 6px;
+    display: inline-block;
+    background-color: #E3F2FD;
+    border: 1px solid #2196F3;
+    color: #2196F3;
+    box-shadow: rgba(33, 150, 243, 0.1) 0px 8px 24px;
+    width: 100%;
+}
+.bg-g2 {
+    border-radius: 6px;
+    display: inline-block;
+    background-color: #F3E5F5;
+    border: 1px solid #9C27B0;
+    color: #9C27B0;
+    box-shadow: rgba(156, 39, 176, 0.1) 0px 8px 24px;
+    width: 100%;
+}
+.bg-g3 {
+    border-radius: 6px;
+    display: inline-block;
+    background-color: #E8F5E9;
+    border: 1px solid #2E7D32;
+    color: #2E7D32;
+    box-shadow: rgba(46, 125, 50, 0.1) 0px 8px 24px;
+    width: 100%;
+}
+.bg-g4 {
+    border-radius: 6px;
+    display: inline-block;
+    background-color: #FFF1E5;
+    border: 1px solid #FF7700;
+    color: #FF7700;
+    box-shadow: rgba(46, 125, 50, 0.1) 0px 8px 24px;
+    width: 100%;
+}
+.bg-g5 {
+    border-radius: 6px;
+    display: inline-block;
+    background-color: #efe5fc;
+    border: 1px solid #6200ea;
+    color: #6200ea;
+    box-shadow: rgba(46, 125, 50, 0.1) 0px 8px 24px;
+    width: 100%;
+}
+.bg-g6 {
+    border-radius: 6px;
+    display: inline-block;
+    background-color: #FFE5E5;
+    border: 1px solid #FF0000;
+    color: #FF0000;
+    box-shadow: rgba(46, 125, 50, 0.1) 0px 8px 24px;
+    width: 100%;
+}
